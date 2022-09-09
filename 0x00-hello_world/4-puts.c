@@ -1,11 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - entry point
+ * main - print the string in the put function
  *
- *  a C program that prints exactly "Programming is like building a multilingual puzzle
+ *  Description: using the main function
+ *  C program that prints exactly "Programming is like building a multilingual puzzle
  *  return: 0
- *\
+ */
  int main(void)
  {
 
