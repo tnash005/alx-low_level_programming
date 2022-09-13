@@ -14,6 +14,7 @@ int n;
 
 void srand();
 void rand();
+void RAND_MAX();
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 	/* my code */
