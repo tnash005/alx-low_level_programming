@@ -6,7 +6,6 @@
  */
 
 void print_alphaibet(void)
-
 {
 	int j;
 
