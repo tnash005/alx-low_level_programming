@@ -5,7 +5,7 @@
  *  @n: arguement passed
  *  Return: 1, 0, -1
  */
-int _print_sign(int n)
+int print_sign(int n)
 {
 	if (n > 0)
 	{
