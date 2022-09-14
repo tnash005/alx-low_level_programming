@@ -1,7 +1,6 @@
 #include "main.h"
 
 /**
-*
 * print_alphabet - prints lower alphabets
 *
 */
