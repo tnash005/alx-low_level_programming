@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
- * main - entry point
+ * main - lowercase alphabets
  *
  * Return: 0
  */
@@ -15,5 +15,6 @@ int main(void)
 	{
 		putchar(low);
 	}
+	putchar('\n');
 	return (0);
 }
