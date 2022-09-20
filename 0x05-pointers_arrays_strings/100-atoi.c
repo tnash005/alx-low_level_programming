@@ -14,7 +14,7 @@ int _atoi(char *s)
 
 	temp = s;
 	num = 0;
-	sign = i;
+	sign = 1;
 
 	while (*temp != '\0' && (*temp < '0' || *temp > '9'))
 	{
