@@ -15,7 +15,7 @@ int helperFunction(int num, int i)
 		}
 		else
 		{
-			return (helperFunction(um, i + 1));
+			return (helperFunction(num, i + 1));
 		}
 	}
 	else
@@ -23,6 +23,7 @@ int helperFunction(int num, int i)
 		return (1);
 	}
 }
+
 /**
  * is_prime_number - checks if its prime or not
  * @n: number to e checked
@@ -30,7 +31,7 @@ int helperFunction(int num, int i)
  */
 int is_prime_number(int n)
 {
-	if (n <= i)
+	if (n <= 1)
 	{
 		return (0);
 	}
@@ -38,4 +39,5 @@ int is_prime_number(int n)
 	{
 		return (helperFunction(n, 2));
 	}
+
 }
